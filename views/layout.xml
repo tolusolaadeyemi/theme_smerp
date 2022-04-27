@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="theme_custom_nav" name="Custom Navbar" inherit_id="website.layout">
+            <xpath expr="//div[@id='wrapwrap']/header/nav" position="replace">
+                <nav class="navbar navbar-expand-md navbar-dark bg-purple">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+        <img src="/theme_smerp/static/img/smerp-logo.svg" alt="" width="70" height="35" class="d-inline-block align-text-top"/>
+    </a>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse justify-content-right collapse" id="navbarCollapse" style="">
+      <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/about">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#!">Marketplace</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="/blog">Blogs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="/faqs">FAQs</a>
+        </li>
+        <li class="nav-item d-grid gap-2">
+            <button class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#signUpModal">
+              Sign up
+            </button>
+        </li>
+        <li class="nav-item d-grid gap-2">
+            <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#signInModal"
+              style="background-color: #fff; color: #3A054f; margin-left:50px;">
+              Sign in
+            </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+            </xpath>
+        </template>
+
+         <template id="theme_custom_footer" name="Custom Footer" inherit_id="website.layout">
+            <xpath expr="//div[@id='wrapwrap']/footer" position="replace">
+            <!-- Footer -->
+    <footer class="text-center text-lg-start bg-purple text-white">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4">
+      </section>
+      <!-- Section: Social media -->
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <img src="theme_smerp/static/img/smerp-logo.svg" alt="" width="70"
+                height="35" class="d-inline-block align-text-top"/>
+              </h6>
+              <p>
+                Smerp is absolutely affordble, feel free to select one of the available
+                plans that suit your needs. We can also talior smerp to your needs
+              </p>
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Quicklinks
+              </h6>
+              <p class="mb-1">
+                <a href="#featured-4" class="text-reset footer-links">Pricing</a>
+              </p>
+              <p class="mb-1">
+                <a href="#featured-3" class="text-reset footer-links">Features</a>
+              </p>
+              <p class="mb-1">
+                <a href="#!" class="text-reset footer-links">SMERP Shop</a>
+              </p>
+              <p class="mb-1">
+                <a href="#!" class="text-reset footer-links">SMERP Marketplace</a>
+              </p>
+              <p class="mb-1">
+                <a href="#!" class="text-reset footer-links">SMERP e-Commerce</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Get in touch
+              </h6>
+              <p>
+                <a href="https://web.facebook.com/smerp.com.ng" class="me-4 text-reset"
+                style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/justSMERPit" class="me-4 text-reset"
+                style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/smerp_ng/" class="me-4 text-reset"
+                style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/smerp-cwg/" class="me-4 text-reset"
+                style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </p>
+             <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@smerp.ng
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 234 814 138 1197</p>
+              <p><i class="fas fa-print me-3"></i> + 234 814 138 1198</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2022 Copyright:
+        <a class="text-reset fw-bold footer-links" href="https://cwg-plc.com/">CWG</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

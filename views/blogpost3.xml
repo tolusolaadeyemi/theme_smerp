@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    <record id="blogpost3" model="ir.ui.view">
+        <field name="name">Blog Post3</field>
+        <field name="type">qweb</field>
+        <field name="key">smerp_pages.blogpost3</field>
+        <field name="arch" type="xml">
+            <t name="Blog Post3" t-name="smerp_pages.blogpost3">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty blogpost3">
+                <main>
+    <div class="container-fluid bg-purple">
+        <div class="container py-5 text-white">
+            <div class="row align-items-center g-4 px-5">
+                <div>
+                    <div class="pt-3 pb-2 text-center">
+                        <h1 class="display-5 fs-2 fw-bold lh-1 mb-3">
+                            How to Run a Business with 100% Remote Customers on SMERP Platform<span style="color: #DB0B5B;">.</span>
+                        </h1>
+                        <p class="">by Admin <small><i>Feb 23, 2022 | 15 MIN</i></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container py-5 px-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-lg-9 mx-auto py-5 mb-4 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="row px-5">
+                            <div class="col-md-4 mx-auto align-items-center text-center pb-5">
+                                <img src="theme_smerp/static/img/smerp-mockup.png" class="img-fluid"
+                                alt="..." loading="lazy" height="500" width="500"/>
+                            </div>
+                            <div class="col-md-8 mx-auto align-items-center pb-5">
+                              <p class="mb-3">
+                                <span class="fw-bold fs-2">C</span>onfused? The days of ‘Brick and Mortar’ business are in the past.
+                                These days, more and more businesses are popping up daily both on social media platforms
+                                (e.g. Instagram, Facebook) or websites. No wonder so many business owners utilize these platforms to
+                                their advantage with many shoppers opting to make purchases online rather than walk-in stores.
+                                Online purchases and business platforms have been made for your convenience,
+                                it is stress-free – pickup or delivery to your doorstep.
+                              </p>
+                            </div>
+                            <div class="col-md-12 justify-content-center">
+                                <div class="row">
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                            Running a business entirely on SMERP  isn’t harder than it looks! With big brands like Konga, Jumia, e.t.c,
+                                            leading the way internationally or nationally.
+                                            It might seem impossible for smaller businesses to make a splash in this internet boom.
+                                            While it might be a little confusing at first, it’s easier than you think to get noticed online.
+                                            Keep reading to explore how to run a business with 100% remote customers.
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                            Nigerian e-commerce platforms have growing competition, there is still a disconnection between businesses
+                                            and customers. Customers feel they are interacting with a machine behind the screen.
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                            Social media buying and selling is also known as a type of online business and it has been in existence for a
+                                            long time. Online shopping on social media platforms like Instagram is not without its shortcomings as
+                                            shoppers get scammed daily. Such instances of issuance of fake payment alerts, contacting a buyer privately
+                                            via WhatsApp without the personal shopper’s consent etc are quite rampant. It’s safer if you know the personal
+                                            shopper but what if the person’s account has been hacked. Shopping on Instagram is just luck.
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                            There are safer platforms like SMERP, which offer a single platform from payment to warehousing.
+                                            It’s advisable to transact and manage your business on a secured and protected business platform
+                                        </span>
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Tips on how to run your business 100%  remotely on SMERP:
+                                        <ul>
+                                          <li>Keep your navigation simple and easy - A lot of new web designers are tempted to choose designs
+                                              that are based more on aesthetics than accessibility.</li>
+                                          <li>Cut unnecessary content - Your business content should be clear and precise.</li>
+                                          <li>Readability is important - Font sizes should be at least 14 points to be clear and use simple,
+                                              un-styled text that is easy to read.</li>
+                                          <li>Use strong images - A picture conveys more than a thousand words.
+                                              Having strong imagery can keep users on your page longer and it also increases engagement.</li>
+                                        </ul>
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        If the above tips are followed, your business will display seamlessly across devices.
+                                        Always look for ways to improve your mobile or website optimization.
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Making a payment on the ERP platform easily – A customer needs an e-payment system platform that makes it easy for
+                                        them to pay securely on the ERP platform. The steps between shopping and entering card information, especially when a
+                                        customer abandons their cart and moves onto something else. SMERP makes sure your checkout process is simple and
+                                        functional too.
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Looking for a payment platform that runs, controls, manages and monetizes your SMEs today?
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        SMERP is the right payment business platform for you and it is essential in running a business smoothly online.
+                                        SMERP helps review your account options to ensure you have chosen something secure for your online business.
+                                        SMERP provides you with an ERP platform that runs on the cloud and offers SMEs (Retail and Online) the required
+                                        tool to manage their entire business operations such as Point of Sale, Inventory and Accounting. Our solution cuts
+                                        across all business verticals and aims at reducing the cost of adopting technology as a tool for business growth.
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Unfortunately, many small business owners go through a phase of different trials and errors with
+                                        several sales and marketing models. Still, the mistake many make is not measuring them to see whether
+                                        they are working. Do you want to know a secret to help figure out how well efforts are working, where
+                                        to spend the most money, and where to fix it; all you need are Sales metrics to monitor your output and
+                                        business as a whole.
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Here are 5 business metrics you need to consider while using SMERP; tracking and looking out for your
+                                        business performance, growth and  also boost sales:
+                                        <ul>
+                                          <li>New vs Returning Customers.</li>
+                                          <li>Sales Growth Over Time.</li>
+                                          <li>Sales By Product or Service.</li>
+                                          <li>Sales Generated by Lead Source.</li>
+                                          <li>Average Purchase Value.</li>
+                                        </ul>
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Thinking of sales metrics as a way to truly connect with your business and its sales operations,
+                                        a way to figure out how any decision you make would shape your business’s performance.
+                                        The moment your business’s sales monitors are tracked regularly, it becomes easier to prepare a better
+                                        plan to revive parts of your sales operations that are lagging in your small business.
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                            Here are a few things to consider while optimizing your payment system on SMERP
+                                          <ul>
+                                            <li>Having SMERP A/B test your payment process - the best way to understand which process is the most
+                                                effective is to simply test several options.</li>
+                                            <li>SMERP reduces unnecessary fees - having a high number of unexpected fees like shipping and handling can lead to more abandoned carts.
+                                                Instead, try to offer a flat shipping rate or free shipping for orders over #10,000.</li>
+                                            <li>SMERP secures your checkout process - online buyers are hesitant to enter their credit card info in unfamiliar locations.
+                                                They need to know their transaction is 100% secure.</li>
+                                          </ul>
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Unfortunately, many small business owners go through a phase of different trials and errors.
+                                        Still, the mistake many make is not measuring them to see whether they are working. Security and ease of
+                                        transaction should be your number one priority when your customers are 100% remotely purchasing on the ERP platform.
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                            SMERP always listens to feedback - Feedback is one of the most valuable resources for any business platform and
+                                            you’ll need to pay close attention to customer feedback. Some feedback is digital in the form of analytical information.
+                                            How long are users staying on the ERP platform? What business are they visiting, and what are they more interested in?
+                                            This feedback is easy to review regularly, and it will help you make the best decisions for your business.
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                            Encourage users/customers to complete surveys after they purchase items from the ERP platform.
+                                            Feedbacks like were they satisfied with their purchase? This kind of feedback shows you how your
+                                            business can improve. Need more ways to get genuine customer feedback?
+                                        </span>
+                                    </div>
+                                    <hr/>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+</main>
+
+
+
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+
+
+    <record id="blogpost3_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/blogpost3</field>
+        <field name="view_id" ref="blogpost3"/>
+    </record>
+
+    </data>
+</odoo>

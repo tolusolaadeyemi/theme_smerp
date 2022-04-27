@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    <record id="blogpost2" model="ir.ui.view">
+        <field name="name">Blog Post2</field>
+        <field name="type">qweb</field>
+        <field name="key">smerp_pages.blogpost2</field>
+        <field name="arch" type="xml">
+            <t name="Blog Post2" t-name="smerp_pages.blogpost2">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty blogpost2">
+<main>
+    <div class="container-fluid bg-purple">
+        <div class="container py-5 text-white">
+            <div class="row align-items-center g-4 px-5">
+                <div>
+                    <div class="pt-3 pb-2 text-center">
+                        <h1 class="display-5 fs-2 fw-bold lh-1 mb-3">
+                            Why Business Management for SMEs is Essential for Growth on SMERP<span style="color: #DB0B5B;">.</span>
+                        </h1>
+                        <p class="">by Admin <small><i>Feb 22, 2022 | 15 MIN</i></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container py-5 px-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-lg-9 mx-auto py-5 mb-4 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="row px-5">
+                            <div class="col-md-4 mx-auto align-items-center text-center pb-5">
+                                <img src="theme_smerp/static/img/smerp-mockup.png" class="img-fluid"
+                                alt="..." loading="lazy" height="500" width="500"/>
+                            </div>
+
+                            <div class="col-md-8 mx-auto align-items-center pb-5">
+                              <p class="mb-3">
+                                <span class="fw-bold fs-2">T</span>hese skills keep your business profitable and thriving for years to come only when you join SMERP.
+                              </p>
+                              <p class="">
+                                Small businesses are essential to the economy. They are job creators, innovators and filled with creators
+                                who bring new ideas to market. If you are leading a small business, you know that it’s not easy and there
+                                are so many hats you need to wear as a business owner.
+                              </p>
+                            </div>
+
+                            <div class="col-md-12 justify-content-center">
+                                <div class="row">
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                            One of the most critical and often overlooked areas in business that you must pay attention to is business management.
+                                            But don’t overlook it because good business management skills will keep your business growing and thriving for
+                                            years to come. Good business management can be complex for small business owners for various reasons.
+                                            Primarily, because business owners started their businesses to tap into the skill they have to offer the world.
+                                            They put their effort into the world and earn a living from what they do best, whether selling a product or service.
+                                            Chances are you did not take a business class or enough of them to manage a business effectively. And that’s okay.
+                                            You can’t be an expert at everything in business.
+                                        </span>
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                        <span class="fw-bold">
+                                            Here are business management tips that can help your business grow on SMERP:
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Here are some of the most commonly faced problems by entrepreneurs when they start to
+                                        build their own business;
+                                        <ul>
+                                          <li class="pb-3">
+                                            <b>Create your vision and goals for your business on SMERP</b><br/>
+                                            Business management is most effective and efficient when you have a vision and plan that gives you
+                                            direction and goals to work towards. Plan out how much revenue you want to earn throughout the year.
+                                            Also, plan out the business expenses and your expected profit margins.
+                                          </li>
+
+                                          <li class="pb-3">
+                                            <b>Manage your business finances</b><br/>
+                                            Effective business management includes the cost-effective control of your finances.
+                                            As the owner of your business, you do not need to get stuck in the weeds of financial activity.
+                                            Still, you need a high-level understanding of your business finances to make profitable decisions for your business.
+                                            The purpose of business is to create profit, and the higher the profit margins, the more profit you will have.
+                                          </li>
+
+                                          <li class="pb-3">
+                                            <b>Set up automation in your business with SMERP</b><br/>
+                                            Automation’s platform solutions like SMERP are excellent time-savers and can be cost-effective.
+                                            With today’s technology and abundance of time-saving products, you need to take advantage of the technology and set
+                                            yourself up for success. Save yourself the stress
+                                          </li>
+
+                                          <li class="pb-3">
+                                            <b>Listen to your customer’s feedback</b><br/>
+                                            Your customers are the drivers of your business, so pay attention when offering you feedback.
+                                            Respond to their changing needs and make improvements that they suggest to deliver an excellent customer experience.
+                                            Happy customers spread the word and bring in new business.
+                                          </li>
+
+                                          <li class="pb-3">
+                                            <b>Listen to your team</b><br/>
+                                            Visionary small business owners should hire intelligent people.
+                                            You do a disservice to the business when you are not listening and implementing your team’s feedback and suggestions.
+                                            Don’t surround yourself with yes people; surround yourself with people who have new ideas that are not afraid to express them.
+                                            New and innovative thinking helps the business grow.
+                                          </li>
+
+                                          <li class="pb-3">
+                                            <b>Build good relationships</b><br/>
+                                            Business is enjoyable, especially when we keep the human element as part of the business.
+                                            You can have the most intelligent person on your team, but if they kill your team's morale,
+                                            the business will suffer. Build good relationships with your customers.
+                                          </li>
+
+                                          <li>
+                                            <b>Be resilient on SMERP</b><br/>
+                                            Resilience is critical in business, as market demand changes rapidly and what worked today may no
+                                            longer work tomorrow. It would be best to flow with the changes and alter your plan accordingly to
+                                            survive. <br/><br/>
+                                            The bottom line is that there are so many areas in your business that need attention to flow together successfully.
+                                            Yes, generating revenue is a vital component of a business.
+                                            But, don’t forget about the backend office activities that require attention.
+                                            Every action in your business affects the bottom line, whether it’s directly or indirectly.
+                                            Be sure you have tightened up your backend services to ensure you are meeting the highest profit potential in
+                                            your business
+                                          </li>
+                                        </ul>
+                                      </span>
+                                    </div>
+                                    <hr/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</main>
+
+
+
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+
+
+    <record id="blogpost2_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/blogpost2</field>
+        <field name="view_id" ref="blogpost2"/>
+    </record>
+
+    </data>
+</odoo>

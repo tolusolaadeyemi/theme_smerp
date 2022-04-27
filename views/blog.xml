@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="blog" model="ir.ui.view">
+        <field name="name">Blog</field>
+        <field name="type">qweb</field>
+        <field name="key">smerp_pages.blog</field>
+        <field name="arch" type="xml">
+            <t name="Blog" t-name="smerp_pages.blog">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty blog">
+                        <main>
+    <div class="container-fluid bg-purple">
+        <div class="container py-5 text-white">
+            <div class="row align-items-center g-4 px-5">
+                <div class="pt-3 pb-2 text-center">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">
+                        SMERP Blog Center<span style="color: #DB0B5B;">.</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-5 px-4">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-12 py-5 mb-4 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="row px-5">
+                            <div class="col-md-4 px-5 py-5 d-flex align-items-center" style="background-color: #FFF;">
+                                <img src="theme_smerp/static/img/smerp-mockup.png" class="img-fluid"
+                                alt="..." loading="lazy"/>
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-12 mb-3">
+                                        <div class="row">
+                                            <span class="col-md-6 fs-4 fw-normal txt-magenta">News</span>
+                                            <span class="col-md-6 fw-light text-end">Feb 21, 2022 | 10 MIN</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3 txt-purple">
+                                        <span class="fw-bold fs-2">
+                                          Think you’re too old to be an entrepreneur? Think Again<span style="color: #DB0B5B;">.</span>
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                          Are you an entrepreneur? Are you thinking of starting your business?
+                                          Are you looking for a business platform? If your answer is yes, join SMERP
+                                          today and do all your business transactions on a single ERP platform seamlessly ..
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-1">
+                                        <span class="">
+                                            <a href="/blogpost1" class="txt-magenta" style="text-decoration: none;">Read more</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 py-5 mb-4 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="row px-5">
+                            <div class="col-md-4 px-5 py-5 d-flex align-items-center" style="background-color: #FFF;">
+                                <img src="theme_smerp/static/img/smerp-mockup.png" class="img-fluid"
+                                alt="..." loading="lazy"/>
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-12 mb-3">
+                                        <div class="row">
+                                            <span class="col-md-6 fs-4 fw-normal txt-magenta">News</span>
+                                            <span class="col-md-6 fw-light text-end">Feb 22, 2022 | 15 MIN</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3 txt-purple">
+                                        <span class="fw-bold fs-2">
+                                          Why Business Management for SMEs is Essential for Growth on SMERP<span style="color: #DB0B5B;">.</span>
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                          These skills keep your business profitable and thriving for years to come only when you join SMERP.
+                                          Small businesses are essential to the economy. They are job creators, innovators and filled with creators
+                                          who bring new ideas to market. If you are leading a small business, you know ..
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-1">
+                                        <span class="">
+                                            <a href="/blogpost2" class="txt-magenta" style="text-decoration: none;">Read more</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 py-5 mb-4 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="row px-5">
+                            <div class="col-md-4 px-5 py-5 d-flex align-items-center" style="background-color: #FFF;">
+                                <img src="theme_smerp/static/img/smerp-mockup.png" class="img-fluid"
+                                alt="..." loading="lazy"/>
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-12 mb-3">
+                                        <div class="row">
+                                            <span class="col-md-6 fs-4 fw-normal txt-magenta">News</span>
+                                            <span class="col-md-6 fw-light text-end">Feb 23, 2022 | 15 MIN</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3 txt-purple">
+                                        <span class="fw-bold fs-2">
+                                          How to Run a Business with 100% Remote Customers on SMERP Platform<span style="color: #DB0B5B;">.</span>
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                          Confused? The days of ‘Brick and Mortar’ business are in the past.
+                                          These days, more and more businesses are popping up daily both on social media platforms
+                                          (e.g. Instagram, Facebook) or websites. No wonder so many business owners utilize these platforms
+                                          to their advantage with many shoppers opting to make purchases online ..
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-1">
+                                        <span class="">
+                                            <a href="/blogpost3" class="txt-magenta" style="text-decoration: none;">Read more</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 px-4">
+                <div class="row">
+                    <form method="get">
+                        <div class="input-group">
+                            <input class="form-control border-end-0 border" type="text" placeholder="Search" aria-label="Search"
+                            style="background-color: #FBFBFB;"/>
+                            <button class="btn btn-outline-secondary border-start-0 border" type="button" style="background-color: #FBFBFB;">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="col-12 py-4 rounded-3">
+                        <span class="txt-purple fw-normal fs-4">Recent Posts</span>
+                    </div>
+
+                    <div class="col-11 mx-auto mb-3 rounded-3" style="background-color: #FBFBFB;">
+                        <a href="think-youre-too-old-to-be-an-entrepreneur.html" style="text-decoration: none;">
+                            <div class="row py-2">
+                                <div class="col-4">
+                                    <img src="theme_smerp/static/img/blog-side.svg" class="img-fluid"
+                                    alt="..." loading="lazy"/>
+                                </div>
+
+                                <div class="col-8">
+                                    <div class="row">
+                                        <div class="col-md-12 mb-1">
+                                            <span class="txt-purple">
+                                              Think you’re too old to be an entrepreneur? Think Again
+                                            </span>
+                                        </div>
+
+                                        <div class="col-md-12 mb-1">
+                                            <span class="">
+                                                <span class="txt-magenta"><small>FEB 21, 2022</small></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-11 mx-auto mb-3 rounded-3" style="background-color: #FBFBFB;">
+                        <a href="why-business-management-for-smes-is-essential-for-growth-on-smerp.html" style="text-decoration: none;">
+                            <div class="row py-2">
+                                <div class="col-4">
+                                    <img src="theme_smerp/static/img/Rectangle_1645.svg" class="img-fluid"
+                                    alt="..." loading="lazy"/>
+                                </div>
+
+                                <div class="col-8">
+                                    <div class="row">
+                                        <div class="col-md-12 mb-1">
+                                            <span class="txt-purple">
+                                              Why Business Management for SMEs is Essential for Growth on SMERP.
+                                            </span>
+                                        </div>
+
+                                        <div class="col-md-12 mb-1">
+                                            <span class="">
+                                                <span class="txt-magenta"><small>FEB 22, 2022</small></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-11 mx-auto mb-3 rounded-3" style="background-color: #FBFBFB;">
+                        <a href="how-to-run-a-business-with-remote-customers-on-smerp-platform.html" style="text-decoration: none;">
+                            <div class="row py-2">
+                                <div class="col-4">
+                                    <img src="theme_smerp/static/img/Rectangle_1647.svg" class="img-fluid"
+                                    alt="..." loading="lazy"/>
+                                </div>
+
+                                <div class="col-8">
+                                    <div class="row">
+                                        <div class="col-md-12 mb-1">
+                                            <span class="txt-purple">
+                                              How to Run a Business with 100% Remote Customers on SMERP Platform.
+                                            </span>
+                                        </div>
+
+                                        <div class="col-md-12 mb-1">
+                                            <span class="">
+                                                <span class="txt-magenta"><small>FEB 23, 2022</small></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 py-4 rounded-3">
+                        <span class="txt-purple fw-normal fs-4">Tags</span>
+                    </div>
+
+                    <div class="col-11 mx-auto mb-3 rounded-3">
+                        <span class="badge fs-5" style="background-color: #FBFBFB; color: #000;">Ecommerce</span>
+                        <span class="badge fs-5" style="background-color: #FBFBFB; color: #000;">Smerp</span>
+                        <span class="badge fs-5" style="background-color: #FBFBFB; color: #000;">ERP’s</span>
+                        <span class="badge fs-5" style="background-color: #FBFBFB; color: #000;">Smerp subscription</span>
+                    </div>
+                </div>
+            </div>
+
+</div>
+</div>
+</main>
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+
+
+    <record id="blog_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/blog</field>
+        <field name="view_id" ref="blog"/>
+    </record>
+
+
+
+    <record id="menu_blog" model="website.menu">
+        <field name="name">Blog</field>
+        <field name="url">/blog</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">64</field>
+    </record>
+
+
+    </data>
+</odoo>

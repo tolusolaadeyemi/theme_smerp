@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <template id="theme_smerp_homepage" name="SMERP home" inherit_id="website.homepage" customize_show="True" active="True">
+<!--                SMERP Home Page-->
+           <data inherit_id="website.homepage">
+                   <xpath expr="//div[@id='wrap']" position="inside">
+                <section>
+                  <t t-set="head">
+                       <link rel="stylesheet" href="/theme_smerp/static/slick/slick.css"/>
+                    <link rel="stylesheet" href="/theme_smerp/static/slick/slick-theme.css"/>
+                        <script src="/theme_smerp/static/js/jquery-3.6.0.min.js"/>
+            <script src="/theme_smerp/static/slick/slick.min.js"/>
+                        <script type="text/javascript">
+                       $(document).ready(function(){
+                          $('.demo').slick({
+                            arrows:false,
+                            autoplay:true,
+                            autoplaySpeed: 4000,
+                            dots: true,
+                            slidesToShow: 3,
+                            slidestoScroll: 3,
+                       });
+                     });
+                     </script>
+                     </t>
+         <div class="container-fluid bg-purple">
+        <div class="container col-xxl-12 px-2 py-5 text-white">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6 jumbotron-bg-img">
+                <img src="theme_smerp/static/img/smerp-mockup.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+              </div>
+              <div class="col-lg-6">
+                <span class="display-5 fw-bold lh-1 mb-5" style="font-size: 46px;">
+                    Transform your business process with SMERP<span style="color: #DB0B5B;">.</span></span>
+                  <p class="mt-4" style="color: #F2F2F2; font-size: 20px;">
+                      A robust, adaptable and efficient cloud-powered ERP solution that  improves work-flows,
+                  drives productivity by connecting and enabling businesses to address their key needs
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
+                  <button type="button" class="btn btn-light btn-lg px-7 me-md-2" data-bs-toggle="modal"
+                  data-bs-target="#bookDemoModal" data-bs-dismiss="modal">Book a demo</button>
+                  <button type="button" class="btn btn-outline-light btn-lg px-7 me-md-3" data-bs-toggle="modal"
+                  data-bs-target="#signUpModal" data-bs-dismiss="modal">Sign up</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+                </section>
+                     <div class="oe_structure"/>
+                           <section>
+                                   <div>
+
+      <div class="container-fluid">
+        <div class="row" id="featured-3">
+          <div class="col-12 pt-5 pb-2 features-bg-img">
+            <div class="row">
+              <div class="col-12 pt-4 text-center txt-magenta jumbotron-bg-img" style="font-size: 30px;">
+                features
+              </div>
+
+              <div class="col-md-3 pt-4 mx-auto pb-4 text-center txt-purple">
+                <h3 style="font-size: 47px;">
+                  Change the game through innovation<span style="color: #DB0B5B;">.</span>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-9 mx-auto">
+            <div class="row g-4 px-lg-5 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col py-3 px-5">
+                <div class="row g-0 pb-4 align-items-center">
+                  <div class="feature-icon bg-gradient col-3">
+                    <img src="theme_smerp/static/img/features/features-1.svg" class="img-fluid" alt="featues img"
+                    loading="lazy"/>
+                  </div>
+                  <div class="txt-purple feats-title col align-middle">Rewards and Loyalty Program</div>
+                </div>
+
+                <p class="justify-content-left feats-content">
+                  With SMERP’s Rewards and Loyalty Program, you can keep your old customers coming back and get
+                  the new ones to stay with condition-based perks and rewards that will automatically be assigned to customers.
+                </p>
+              </div>
+
+              <div class="feature col py-3 px-5">
+                <div class="row g-0 pb-4 align-items-center">
+                  <div class="feature-icon bg-gradient col-3">
+                    <img src="theme_smerp/static/img/features/features-2.svg" class="img-fluid" alt="featues img"
+                    loading="lazy"/>
+                  </div>
+                  <div class="txt-purple feats-title col align-middle">Automated Order Management</div>
+                </div>
+
+                <p class="justify-content-left feats-content">
+                  SMERP’s automated order management feature helps make order management a breeze - reducing costs, order processing
+                  times and improving customer-satisfaction by automating each stage of the order work-flow from start to fulfillment.
+                </p>
+              </div>
+
+              <div class="feature col py-3 px-5">
+                <div class="row g-0 pb-4 align-items-center">
+                  <div class="feature-icon bg-gradient col-3">
+                    <img src="theme_smerp/static/img/features/features-3.svg" class="img-fluid" alt="features img"
+                    loading="lazy"/>
+                  </div>
+                  <div class="txt-purple feats-title col align-middle">Integrated Inventory Management</div>
+                </div>
+                <p class="justify-content-left feats-content">
+                  Structure, manage and keep track of inventory items reliably and efficiently with SMERP’s inventory management system
+                  and say goodbye to wasted or insufficient inventory stock.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-9 mx-auto">
+            <div class="row g-4 px-lg-5 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col py-3 px-5">
+                <div class="row g-0 pb-4 align-items-center">
+                  <div class="feature-icon bg-gradient col-3">
+                    <img src="theme_smerp/static/img/features/features-4.svg" class="img-fluid" alt="features img"
+                    loading="lazy"/>
+                  </div>
+                  <div class="txt-purple feats-title col align-middle">Accounting Management</div>
+                </div>
+                <p class="justify-content-left feats-content">
+                  Hassle-free finance management and accounting is now at your fingertips. Track and manage expenditures, credits, revenues
+                  and profits with SMERP
+                </p>
+              </div>
+              <div class="feature col py-3 px-5">
+                <div class="row g-0 pb-4 align-items-center">
+                  <div class="feature-icon bg-gradient col-3">
+                    <img src="theme_smerp/static/img/features/features-5.svg" class="img-fluid" alt="featues img"
+                    loading="lazy"/>
+                  </div>
+                  <div class="txt-purple feats-title col align-middle">Customer Management</div>
+                </div>
+
+                <p class="justify-content-left feats-content">
+                  SMERP gives you the ability to intelligently and efficiently manage leads, opportunities, tasks, issues, requests, bugs, campaigns,
+                  and claims from your customers.
+                </p>
+              </div>
+              <div class="feature col py-3 px-5">
+                <div class="row g-0 pb-4 align-items-center">
+                  <div class="feature-icon bg-gradient col-3">
+                    <img src="theme_smerp/static/img/features/features-6.svg" class="img-fluid" alt="featues img"
+                         loading="lazy"/>
+                  </div>
+                  <div class="txt-purple feats-title col align-middle">Invoicing Management</div>
+                </div>
+                <p class="justify-content-left feats-content">
+                  Eliminate human error while identifying price-friendly vendors that meet your business needs. Personalize and automate your invoicing with
+                  SMERP today.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 d-grid gap-2 mx-auto pb-5 text-center">
+            <button type="button" class="btn btn-light btn-lg bg-purple text-white" data-bs-toggle="modal"
+            data-bs-target="#bookDemoModal" data-bs-dismiss="modal">Book a demo</button>
+          </div>
+        </div>
+      <div class="row">
+          <div class="col-md-11 pt-5 pb-2 txt-purple">
+            <div class="row g-4 px-lg-5 py-5 row-cols-1 row-cols-lg-3">
+              <div class="col-md-11 px-5">
+                <p class="fw-bold px-md-5" style="font-size: 33px;">
+                  What you get with
+                </p>
+                <p class="fw-bold px-md-5" style="font-size: 33px;">
+                  SMERP<span style="color: #DB0B5B;">.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-11 mx-auto px-lg-5">
+            <div class="row g-4 px-lg-5 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col px-5">
+                  <div class="card border-0 h-100 rounded-3" style="background-color: #FBFBFB;">
+                    <img src="theme_smerp/static/img/features/Shopping 2.svg" class="card-img-top" alt="..."
+                    height="250" width="250"/>
+                    <div class="card-body">
+                      <h4 class="card-title txt-purple px-4 fw-bold" style="font-size: 25px;">SMERP <br/>Marketplace</h4>
+                      <p class="card-text px-4" style="color: grey;">SMERP Marketplace is the key to unlocking the growth
+                        and visibility of your business.</p>
+                    </div>
+
+                    <div class="card-footer text-muted border-0 bg-transparent">
+                      <p class="px-2">
+                        <button class="btn btn-link txt-magenta fw-bolder" data-bs-toggle="modal"
+                        data-bs-target="#bookDemoModal" data-bs-dismiss="modal" style="text-decoration: none;">Book A Demo</button>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col px-5">
+                  <div class="card border-0 h-100 rounded-3" style="background-color: #FBFBFB;">
+                    <img src="theme_smerp/static/img/features/Credit Card Payment 1.svg" class="card-img-top" alt="..."
+                    height="250" width="250"/>
+                    <div class="card-body">
+                      <h4 class="card-title txt-purple px-4 fw-bold" style="font-size: 25px;">Free Website</h4>
+                      <p class="card-text px-4" style="color: grey;">Set up a state-of-the-art, user-friendly website that delivers actionable intelligence,
+                        improves work-flows, drives productivity and business growth.</p>
+                    </div>
+
+                    <div class="card-footer text-muted border-0 bg-transparent">
+                      <p class="px-2">
+                        <button class="btn btn-link txt-magenta fw-bolder" data-bs-toggle="modal"
+                        data-bs-target="#bookDemoModal" data-bs-dismiss="modal" style="text-decoration: none;">Book A Demo</button>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col px-5">
+                  <div class="card border-0 h-100 rounded-3" style="background-color: #FBFBFB;">
+                    <img src="theme_smerp/static/img/features/Finance app 1.svg" class="card-img-top" alt="..."
+                    height="250" width="250"/>
+                    <div class="card-body">
+                      <h4 class="card-title txt-purple px-4 fw-bold" style="font-size: 25px;">Forecast your<br/>cash flow</h4>
+                      <p class="card-text px-4" style="color: grey;">Generate accounting and financial reports on SMERP to gain
+                        insights on your current and future cash position.</p>
+                    </div>
+
+                    <div class="card-footer text-muted border-0 bg-transparent">
+                      <p class="px-2">
+                        <button class="btn btn-link txt-magenta fw-bolder" data-bs-toggle="modal"
+                        data-bs-target="#bookDemoModal" data-bs-dismiss="modal" style="text-decoration: none;">Book A Demo</button>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+                                   </div>
+                           </section>
+
+                     <section>
+                           <div class="container-fluid" style="background-color: #FBFBFB;">
+      <div class="row" id="featured-4">
+        <div class="col-12 pt-5 pb-2">
+          <div class="row">
+            <div class="col-12 pt-4 text-center txt-magenta" style="font-size: 30px;">
+              pricing
+            </div>
+            <div class="col-md-3 pt-4 mx-auto pb-4 text-center txt-purple">
+              <h3 style="font-size: 47px;">
+                Pricing<span style="color: #DB0B5B;">.</span>
+              </h3><br/>
+              <span style="color: #909090; font-size: 20px;">
+                Tailored plans to meet your needs
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-11 mx-auto px-lg-5">
+          <div class="row g-4 px-lg-5 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col px-5">
+              <div class="card border-0 h-100 rounded-3 pt-4">
+                <img src="theme_smerp/static/img/pricing/basic.svg" class="card-img-top" alt="..." width="120" height="120"/>
+                <div class="card-body pb-5 px-5">
+                  <h5 class="card-title txt-purple text-center"><small>₦2,500</small></h5>
+                  <h5 class="card-title txt-purple text-center">Basic plan</h5>
+                  <p class="card-text text-muted h-25">For micro and small businesses that want to scale their business operations without breaking the bank.</p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Invoicing
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Business Website
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Point of sale (POS)
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Inventory management
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Sale Order Management
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Limited Storage Space
+                  </p>
+                </div>
+
+                <div class="card-footer text-muted border-0 bg-transparent">
+                  <p class="txt-magenta text-center"><small>*Every additional user costs ₦1500 monthly.</small></p>
+                  <div class="d-grid gap-2 mx-auto text-center">
+                    <button type="button" class="btn btn-light btn-lg bg-purple text-white" data-bs-toggle="modal"
+                    data-bs-target="#signUpModal" data-bs-dismiss="modal">Choose Basic</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col px-5">
+              <div class="card border-0 h-100 rounded-3 pt-4">
+                <img src="theme_smerp/static/img/pricing/standard.svg" class="card-img-top" alt="..." width="120" height="120"/>
+
+                <div class="card-body pb-5 px-5">
+                  <h5 class="card-title txt-purple text-center"><small>₦5,000</small></h5>
+                  <h5 class="card-title txt-purple text-center">Standard plan</h5>
+                  <p class="card-text text-muted h-25">For small and medium businesses that want to scale their business operations.</p>
+                  <p class="card-text txt-purple fw-bold">
+                    <span class="txt-purple"></span> All Basic Plan +
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Accounting
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> E-commerce
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Limited Storage Space
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Customer Management
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Purchase Management
+                  </p>
+                </div>
+
+                <div class="card-footer text-muted border-0 bg-transparent">
+                  <p class="txt-magenta text-center"><small>*Every additional user costs ₦1500 monthly.</small></p>
+                  <div class="d-grid gap-2 mx-auto text-center">
+                    <button type="button" class="btn btn-light btn-lg bg-purple text-white" data-bs-toggle="modal"
+                    data-bs-target="#signUpModal" data-bs-dismiss="modal">Choose Standard</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col px-5">
+              <div class="card border-0 h-100 rounded-3 pt-4">
+                <img src="theme_smerp/static/img/pricing/enterprise.svg" class="card-img-top" alt="..." width="120" height="120"/>
+                <div class="card-body pb-5 px-5">
+                  <h5 class="card-title txt-purple text-center"><small>Contact us</small></h5>
+                  <h5 class="card-title txt-purple text-center">Enterprise plan</h5>
+                  <p class="card-text text-muted h-25">For organizations that need additional customization, control, and support.</p>
+                  <p class="card-text txt-purple fw-bold">
+                    <span class="txt-purple"></span> All Standard Plan +
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Manufacturing
+                  </p>
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> HR Management
+                  </p>
+
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Fleet Management
+                  </p>
+
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Asset Management
+                  </p>
+
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Hotel Management
+                  </p>
+
+                  <p class="card-text txt-purple">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Hospital Management
+                  </p>
+
+                  <p class="card-text txt-purple pb-5">
+                    <span class="txt-purple fas fa-thumbs-up"></span> Unlimited Storage Space
+                  </p>
+
+                </div>
+
+                <div class="card-footer text-muted border-0 bg-transparent pt-4">
+                  <p class="txt-magenta text-center"><small>*Every additional user costs ₦1500 monthly.</small></p>
+                  <div class="d-grid gap-2 mx-auto text-center">
+                    <button type="button" class="btn btn-light btn-lg bg-purple text-white" data-bs-toggle="modal"
+                    data-bs-target="#bookDemoModal" data-bs-dismiss="modal">Contact Us</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+                       <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 pt-5 pb-5 smerp-partners-bg-img">
+          <div class="row">
+            <div class="col-12 pt-4 text-center fw-bold txt-purple" style="font-size: 47px;">
+              SMERP Partners<span style="color: #DB0B5B;">.</span>
+            </div>
+            <div class="col-md-5 pt-5 mx-auto pb-4 slider demo">
+              <div><img src="theme_smerp/static/img/partners/blackcopper.png" class="img-fluid pt-3" alt="features img" loading="lazy"/></div>
+              <div><img src="theme_smerp/static/img/partners/swift 1.svg" class="img-fluid" alt="features img" loading="lazy"/></div>
+              <div><img src="theme_smerp/static/img/partners/fcmb.svg" class="img-fluid" alt="features img" loading="lazy"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+                     </section>
+
+
+<!-- SignInModal -->
+<div class="modal fade" id="signInModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content rounded-5">
+      <div class="border-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 bg-purple">
+            </div>
+            <div class="col text-end mt-3" style="background-color: #fff;">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="container">
+        <div class="row flex-lg-row-reverse">
+          <div class="col px-4 py-3 text-center align-self-center">
+              <img src="theme_smerp/static/img/smerp-mockup.png" class="img-fluid"
+              alt="..." width="500" height="500" loading="lazy"/>
+          </div>
+          <div class="col-md-5 bg-purple px-5 py-3">
+            <div class="py-5">
+              <form>
+                <div class="mb-3">
+                  <span class="text-white display-5 fw-bold lh-1">Sign in</span>
+                </div>
+
+                <div class="mb-5">
+                  <span class="text-white lh-1">Ready to stay on top of your business?</span>
+                </div>
+
+                <div class="form-floating mb-5">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+                  <label for="floatingInput">Email/Username</label>
+                </div>
+
+                <div class="form-floating mb-5">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
+                  <label for="floatingPassword">Password</label>
+                </div>
+
+                <div class="mb-5 d-grid gap-2">
+                  <button class="btn btn-outline-light btn-lg">
+                    Let me in
+                  </button>
+                </div>
+
+                <div class="mb-3 text-muted text-center">
+                  Don't have a smerp account?
+                  <button type="button" class="btn btn-link txt-magenta" data-bs-toggle="modal"
+                  data-bs-target="#signUpModal" data-bs-dismiss="modal">
+                    Sign up here</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End SignInModal -->
+
+<!-- SignUpModal -->
+<div class="modal fade" id="signUpModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content rounded-5">
+      <div class="border-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 bg-purple">
+            </div>
+            <div class="col text-end mt-3" style="background-color: #fff;">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row flex-lg-row-reverse">
+          <div class="col px-4 py-3 text-center align-self-center">
+              <img src="theme_smerp/static/img/smerp-mockup.png" class="img-fluid"
+              alt="..." width="500" height="500" loading="lazy"/>
+          </div>
+
+          <div class="col-md-5 bg-purple px-5 py-3">
+            <div class="py-5">
+              <form>
+                <div class="mb-3">
+                  <span class="text-white display-5 fw-bold lh-1">Sign up</span>
+                </div>
+                <div class="mb-5">
+                  <span class="text-white lh-1">Get started with SMERP<span style="color: #DB0B5B;">.</span></span>
+                </div>
+
+                <div class="form-floating mb-4">
+                  <input type="text" class="form-control" id="floatingStoreName" placeholder="abcstores"/>
+                  <label for="floatingStoreName">Store name</label>
+                </div>
+                <div class="form-floating mb-4">
+                  <input type="text" class="form-control" id="floatingFullName" placeholder="John Doe"/>
+                  <label for="floatingFullName">Full name</label>
+                </div>
+
+                <div class="form-floating mb-4">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+                  <label for="floatingInput">Email/Username</label>
+                </div>
+                <div class="form-floating mb-4">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
+                  <label for="floatingPassword">Password</label>
+                </div>
+
+                <div class="mb-5 d-grid gap-2">
+                  <button class="btn btn-outline-light btn-lg">
+                    Submit
+                  </button>
+                </div>
+
+                <div class="mb-3 text-muted text-center">
+                  Already have a SMERP account?
+                  <button type="button" class="btn btn-link txt-magenta" data-bs-toggle="modal"
+                  data-bs-target="#signInModal" data-bs-dismiss="modal">
+                    Sign in here</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End SignUpModal -->
+<!-- BookDemoModal -->
+<div class="modal fade" id="bookDemoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content rounded-5">
+      <div class="border-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6 text-end bg-purple">
+              <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close" style="background-color: #fff !important;"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row flex-lg-row-reverse">
+          <div class="col-md-6 bg-purple px-5 py-3">
+            <div class="py-5 px-3">
+              <form>
+                <div class="mb-5">
+                  <span class="text-white fs-5">Fill the form below<span style="color: #DB0B5B;">.</span></span>
+                </div>
+                <div class="form-floating mb-4">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+                  <label for="floatingInput">Email/Username</label>
+                </div>
+                <div class="form-floating mb-4">
+                  <input type="text" class="form-control" id="floatingPhone2" placeholder="+234 XXX XXX XXXX"/>
+                  <label for="floatingPhone2">Phone</label>
+                </div>
+                <div class="form-floating mb-4">
+                  <select class="form-select" aria-label="Default select example">
+                    <option value="ICT">ICT</option>
+                    <option value="Agriculture">Agriculture</option>
+                    <option value="Hospitality/Tourism">Hospitality/Tourism</option>
+                    <option value="Healthcare">Healthcare</option>
+                    <option value="Retail">Retail</option>
+                    <option value="Manufacturing">Manufacturing</option>
+                    <option value="Others">Others</option>
+                  </select>
+                  <label for="floatingStoreName">Industry</label>
+                </div>
+
+                <div class="mb-4">
+                  <textarea class="form-control" id="floatingDesc" placeholder="Tell us how we can help you" rows="4"></textarea>
+                </div>
+                <div class="mb-5 d-grid gap-2">
+                  <button class="btn btn-outline-light btn-lg">
+                    Submit
+                  </button>
+                </div>
+
+                <div class="mb-3 text-muted text-center">
+                  Already have a SMERP account?
+                  <button type="button" class="btn btn-link txt-magenta" data-bs-toggle="modal"
+                  data-bs-target="#signInModal" data-bs-dismiss="modal">
+                    Sign in here</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-md-6 px-4 py-3 text-center align-self-center">
+            <span class="fw-bolder fs-4 txt-purple">Want to grow with SMERP? Let’s talk</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End BookDemoModal -->
+
+                   </xpath>
+           </data>
+        </template>
+
+
+
+
+</odoo>

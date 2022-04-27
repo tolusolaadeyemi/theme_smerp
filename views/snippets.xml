@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="snippet_landing" name="Landing Page Snippet">
+
+        </template>
+
+        <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+            <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+                <t t-snippet="theme_smerp.snippet_landing"/>
+
+            </xpath>
+
+        </template>
+
+
+    </data>
+</odoo>

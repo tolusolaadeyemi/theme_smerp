@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    <record id="faqs" model="ir.ui.view">
+        <field name="name">FAQs</field>
+        <field name="type">qweb</field>
+        <field name="key">smerp_pages.faqs</field>
+        <field name="arch" type="xml">
+            <t name="FAQs" t-name="smerp_pages.faqs">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty faqs">
+                    <main>
+    <div class="container-fluid bg-purple">
+        <div class="container col-xxl-12 px-2 py-5 text-white">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6 jumbotron-bg-img">
+                <img src="theme_smerp/static/img/smerp-mockup.png" class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes" width="600" height="500" loading="lazy"/>
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3 nnvv">Frequently asked questions<span style="color: #DB0B5B;">.</span></h1>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-5 px-4">
+        <div class="row">
+            <div class="col-md-3 px-4">
+                <div class="row">
+                    <div class="col-12 mb-3 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="mt-5 px-2"><span class="txt-purple fw-normal fs-4">Quick Navigation</span></div>
+                        <ul class="col-12 py-3">
+                            <li class="mb-3"><a class="text-decoration-none txt-purple" href="#intro">Introduction to SMERP</a></li>
+                            <li class="mb-3"><a class="text-decoration-none txt-purple" href="#prod-tour">Product tour</a></li>
+                            <li class="mb-3"><a class="text-decoration-none txt-purple" href="#pricing-list">Pricing list</a></li>
+                            <li class="mb-3"><a class="text-decoration-none txt-purple" href="#mobile-app">SMERP mobile app</a></li>
+                            <li class="mb-3"><a class="text-decoration-none txt-purple" href="#app-tour">App tour with SMERP app</a></li>
+                        </ul>
+                    </div>
+
+
+                    <form method="get">
+                        <div class="input-group">
+                            <input class="form-control border-end-0 border" type="text" placeholder="Search" aria-label="Search"
+                            style="background-color: #FBFBFB;"/>
+                            <button class="btn btn-outline-secondary border-start-0 border" type="button"
+                            style="background-color: #FBFBFB;">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+<!--            <div class="col-md-9">-->
+<!--                <div class="accordion" id="accordionExample">-->
+
+<!--            <div class="row">-->
+<!--                <div class="col-lg-12 col-md-12">-->
+<!--                    <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"-->
+<!--                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"-->
+<!--                            aria-controls="collapseOne">-->
+<!--                        <div class="float-left">-->
+<!--                            What is SMERP?-->
+<!--                        </div>-->
+<!--                        <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"-->
+<!--                                                         src="qpr_pages/static/src/img/open.svg"/> </div>-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"-->
+<!--                 data-parent="#accordionExample">-->
+<!--                <div class="card-body">-->
+<!--                    SMERP stands for Small &amp; Medium Enterprise Resource Planning. It is a solution designed-->
+<!--                    for SME’s to manage their-->
+<!--                    business operations efficiently.-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            </div>-->
+<!--            </div>-->
+
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="" id="intro"><span class="txt-magenta fw-normal fs-4">Introduction to SMERP</span></div>
+                    <div class="col-12 py-5 mb-4 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                  What is SMERP?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne" data-parent="#accordionPanelsStayOpenExample">
+                                <div class="accordion-body">
+                                  SMERP stands for Small and Medium Enterprise Resource Planning.
+                                  It is a solution designed for SME’s to manage their business operations efficiently.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                  What can I do on SMERP?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                  With SMERP you can get a website for your business.
+                                  You can manage your products, sales, customers, staff and analytics.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                  What are the features of SMERP?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                  Features include: Integrated Inventory Management, Customer Behaviour Analytics, Automated Order Management,
+                                  Smerp Point Of Sale Management, Accounting Management, Rewards and Loyalty Program, Customer Management,
+                                  Invoicing Management and many more.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+
+
+                    <div class="" id="prod-tour"><span class="txt-magenta fw-normal fs-4">Product tour</span></div>
+                    <div class="col-12 py-5 mb-4 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                  How do I set up my store?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body">
+                                  <ol type="i">
+                                    <li>Click on the Menu icon on the top left corner of the screen and click on Settings.</li>
+                                    <li>Click on the Set Up button displayed on the left of the settings page with the tagline ‘Set up your company information’.</li>
+                                    <li>The system displays your general information page with details including the Name, address, theme logo and others.</li>
+                                    <li>Click the Edit button in the bottom right corner of the page to modify the information and click Save or Discard to either proceed and save or revert all modifications.</li>
+                                  </ol>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                <button class="accordion-button collapsed bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                  How do I add a product using SMERP?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                                <div class="accordion-body">
+                                    <ol type="i">
+                                      <li>Click on the Menu icon on the top left corner of the screen and click on Inventory.</li>
+                                      <li>Click on the Product button displayed on the top bar</li>
+                                      <li>Click on Create</li>
+                                      <li>Input all the necessary parameters and click Save or Discard to either proceed and save or revert all modifications.</li>
+                                    </ol>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                                <button class="accordion-button collapsed bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                  Can a customer return purchased products?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                                <div class="accordion-body">
+                                  Yes. Start by opening a session that will be used to register the refund.
+                                  After this is done, select the ‘Orders’ option from the sidebar and click the order entry.
+                                  The system displays the order details including Products, Payments etc.
+                                  To return the products, simply click on the ‘Return Products’ button on the top left corner.
+                                  The return is reflected in the system’s financial records.
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="" id="pricing-list"><span class="txt-magenta fw-normal fs-4">Pricing List</span></div>
+                    <div class="col-12 py-5 mb-4 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                                <button class="accordion-button bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                  How much are the SMERP plans?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingSeven">
+                                <div class="accordion-body">
+                                  SMERP plans are in three tiers. The Basic plan is #2500 per Month,
+                                  The Standard plan is #5000 per month and the Enterprise plan has a custom price for larger organisations.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                                <button class="accordion-button collapsed bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                  How do I pay for SMERP?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
+                                <div class="accordion-body">
+                                  You can pay your SMERP subscription online using your bank card.
+                                  SMERP payment gateway is securely powered by Paystack.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+                                <button class="accordion-button collapsed bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                  How do I change payment plans?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNine">
+                                <div class="accordion-body">
+                                  After expiry, you can change your current SMERP plan to one of the various available pricing
+                                  plans such as the monthly or yearly Retail Gold, Retail Silver and Retail Platinum plans on offer.
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="" id="mobile-app"><span class="txt-magenta fw-normal fs-4">Mobile App</span></div>
+                    <div class="col-12 py-5 mb-4 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingTen">
+                                <button class="accordion-button bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                  Is there a mobile App?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTen">
+                                <div class="accordion-body">
+                                  Yes. SMERP currently has an android application which conveniently offers the
+                                  exact same functionalities as the web application.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingEleven">
+                                <button class="accordion-button collapsed bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                  How does the inventory on the SMERP application work?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEleven">
+                                <div class="accordion-body">
+                                  The Inventory system on SMERP allows you to keep track of your products that are
+                                  available for purchase by your customers. Here you can update, edit and monitor
+                                  your inventory so your business is always accurately managed.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingTwelve">
+                                <button class="accordion-button collapsed bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwelve" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                  Is there delivery set up on the SMERP application?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwelve">
+                                <div class="accordion-body">
+                                    Yes there is. From the Dashboard screen, click on the More menu and navigate to Shipping
+                                  details. There you can simply create and activate a shipping type.
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="" id="app-tour"><span class="txt-magenta fw-normal fs-4">App tour</span></div>
+                    <div class="col-12 py-5 mb-4 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingThirteen">
+                                <button class="accordion-button bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThirteen" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                  How do I add a product using SMERP mobile App?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseThirteen" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThirteen">
+                                  <div class="accordion-body">
+                                  From the Dashboard screen click on the Products tab from the bottom dock. Click
+                                  on the Add Products button then fill in the necessary information. Click save to successfully create a product.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingFourteen">
+                                <button class="accordion-button collapsed bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFourteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                  How do I add/register customers using SMERP mobile App?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFourteen">
+                                <div class="accordion-body">
+                                  You can add/register new customers on SMERP by clicking on Customers on the sidebar and either creating the new customers or importing a CSV file containing the Customer details by clicking the ‘Create’ or ‘Import’ button respectively.
+                                  Alternatively, a customer can be created at checkout by clicking on the customer icon, select ‘Add customer’ and inputting their details.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingFifteen">
+                                <button class="accordion-button collapsed bg-purple text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFifteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                  How can I monitor my store using SMERP mobile App?
+                                </button>
+                              </h2>
+
+                              <div id="panelsStayOpen-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFifteen">
+                                <div class="accordion-body">
+                                  SMERP allows you to monitor your store activities from your Point Of Sale
+                                  dashboard. The Dashboard shows you various statistics in different customizable
+                                  views. These statistics include; Total Sales, Product alerts, Active and Closed
+                                  sessions, Number of Customers, Top products by units sold, POS session statuses
+                                  etc.
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+
+
+    <record id="faqs_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/faqs</field>
+        <field name="view_id" ref="faqs"/>
+    </record>
+
+
+
+    <record id="menu_faqs" model="website.menu">
+        <field name="name">FAQs</field>
+        <field name="url">/faqs</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">62</field>
+    </record>
+
+    </data>
+</odoo>

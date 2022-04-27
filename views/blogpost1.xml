@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="blogpost1" model="ir.ui.view">
+        <field name="name">Blog Post1</field>
+        <field name="type">qweb</field>
+        <field name="key">smerp_pages.blogpost1</field>
+        <field name="arch" type="xml">
+            <t name="Blog Post1" t-name="smerp_pages.blogpost1">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty blogpost1">
+<main>
+    <div class="container-fluid bg-purple">
+        <div class="container py-5 text-white">
+            <div class="row align-items-center g-4 px-5">
+                <div>
+                    <div class="pt-3 pb-2 text-center">
+                        <h1 class="display-5 fs-2 fw-bold lh-1 mb-3">
+                          Think you’re too old to be an entrepreneur? Think Again<span style="color: #DB0B5B;">.</span>
+                        </h1>
+                        <p class="">by Admin <small><i>Feb 21, 2022 | 10 MIN</i></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container py-5 px-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-lg-9 mx-auto py-5 mb-4 rounded-3" style="background-color: #FBFBFB;">
+                        <div class="row px-5">
+                            <div class="col-md-4 mx-auto align-items-center text-center pb-5">
+                                <img src="theme_smerp/static/img/smerp-mockup.png" class="img-fluid"
+                                alt="..." loading="lazy" height="500" width="500"/>
+                            </div>
+
+                            <div class="col-md-8 mx-auto align-items-center pb-5">
+                              <p class="mb-3">
+                                <span class="fw-bold fs-2">A</span>re you an entrepreneur? Are you thinking of starting your business?
+                                Are you looking for a business platform? If your answer is yes, join SMERP today and do all
+                                your business transactions on a single ERP platform seamlessly.
+                              </p>
+
+                              <p class="">
+                                An entrepreneur is an individual who focuses on creating new businesses and companies.
+                                An entrepreneur and SMEs bear all the risks in starting a new business and they are commonly seen
+                                as a motivator and an innovator.
+                              </p>
+                            </div>
+
+                            <div class="col-md-12 justify-content-center">
+                                <div class="row">
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                          Entrepreneurs play a significant role in maintaining the economy of a country.
+                                          They should continuously develop new ideas, implement them, and finally release them to the market.
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                        <span class="">
+                                          Even though an entrepreneur bears all the risks, those who succeed in taking all the risks
+                                          head-on and overcome them are treated with immense profit, fame, other unique ideas,
+                                          and business opportunities from other investors.
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Here are some of the most commonly faced problems by entrepreneurs when they start to
+                                        build their own business;
+                                        <ul>
+                                          <li>Overcoming the norms and bureaucracy.</li>
+                                          <li>Hiring people.</li>
+                                          <li>Obtaining funding and financing.</li>
+                                        </ul>
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Is Age a Factor to be an entrepreneur?
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        We know that being an entrepreneur implies that the person should face risks and problems head-on.
+                                        By successful entrepreneurs, we generally think of people such as Jeff Bezos, Bill Gates, Mark Zuckerberg, Steve Jobs,
+                                         etc. All these famous entrepreneurs started their own company when they were just 20 years old.
+                                         So, does that imply that only young people can choose entrepreneurship as their career?
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        So, how old are you? Do you think it’s too late to possibly quit your current job and start a new business or a company?
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        If you think being 40 years old can destroy your possible career as an entrepreneur,
+                                        you are entirely wrong. Age doesn’t matter in starting your own business.
+                                        If you believe you can start your own business, then it is the only thing required to attain success.
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        When you look at successful companies or businesses, you can see that the average age of a founder or owner goes up, not down.
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Now, one of the advantages of starting your company or business late are:
+                                        <ul>
+                                          <li>Greater access to financial resources. For example, you can invest in your company from your pocket and not depend on others.</li>
+                                          <li>You will have a ton of experience from your previous company. This might be extremely helpful when you start your own company or business.</li>
+                                          <li>As you would have a lot of experience, you would have built a vast network that might be useful.</li>
+                                        </ul>
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        Now, why do people view entrepreneurs as very young people?
+                                      </span>
+                                    </div>
+
+                                    <div class="col-md-12 mb-3">
+                                      <span class="">
+                                        It is because people’s mindset is fixated such that people only look for retirement after 40 years
+                                        and work to save money for the future. And at 65, we see ourselves as ready to retire.
+                                        It’s not too late to start a business or company of your own. If you don’t try, then how do you make it?
+                                      </span>
+                                    </div>
+                                    <hr/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+
+
+    <record id="blogpost1_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/blogpost1</field>
+        <field name="view_id" ref="blogpost1"/>
+    </record>
+
+
+    </data>
+</odoo>

@@ -1,0 +1,109 @@
+@font-face {
+
+  font-family: gelion-regular !important;
+  src: url("/theme_smerp/static/fonts/Gelion-Regular.ttf");
+}
+
+body {
+
+  font-family: gelion-regular !important;
+  padding-top: 2.5rem;
+
+}
+
+.bg-purple {
+
+  background-color: #3a054f !important;
+
+}
+
+.txt-purple {
+
+  color: #3a054f !important;
+
+}
+
+.txt-magenta {
+
+  color: #db0b5b !important;
+
+}
+
+.nav-item{
+    margin-left:100px;
+}
+
+.feats-title {
+
+  font-size: larger;
+
+  margin-left: 15px;
+
+}
+
+.feats-content {
+
+  font-size: medium;
+
+  color: grey;
+
+}
+
+.jumbotron-bg-img {
+
+  background-image: url("/theme_smerp/static/img/Group_693.svg");
+
+  background-size: cover;
+
+}
+
+.feats-side-img {
+
+  background-image: url("/theme_smerp/static/img/Group_636.svg");
+
+}
+
+.btn-boder-purple {
+
+  border-color: #3a054f !important;
+
+}
+
+.footer-links {
+
+  text-decoration: none !important;
+
+}
+
+.footer-links:hover {
+
+  text-decoration: underline;
+
+}
+
+.features-bg-img {
+
+  background-image: url("/theme_smerp/static/img/Group_636.svg");
+
+  background-repeat: no-repeat;
+
+}
+
+.smerp-partners-bg-img {
+
+  background-image: url("/theme_smerp/static/img/Group_654.svg");
+
+  background-repeat: no-repeat;
+
+}
+.accordion-body {
+
+        color: #4D4D4D !important;
+
+        font-size: 16px;
+
+        padding-top: 25px;
+
+        padding-bottom: 25px;
+
+      }

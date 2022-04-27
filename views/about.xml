@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+    <record id="about" model="ir.ui.view">
+        <field name="name">About</field>
+        <field name="type">qweb</field>
+        <field name="key">smerp_pages.about</field>
+        <field name="arch" type="xml">
+            <t name="About Us" t-name="smerp_pages.about">
+                <t t-call="website.layout">
+                    <t t-set="head">
+                        <script src="https://cdn.plyr.io.3.6.12/plyr.polyfilled.js"/>
+                        <script>
+                        const player = new Plyr('#player', { captions: { active: false} });
+                        window.player = player;
+                    </script>
+                    </t>
+                    <div id="wrap" class="oe_structure oe_empty about">
+                <div>
+
+      <div class="container-fluid row py-5">
+          <div class="col-12 py-5 features-bg-img" id="featured-3">
+            <div class="pt-5 pb-2 text-center txt-magenta jumbotron-bg-img" style="font-size: 28px;">
+                About SMERP
+            </div>
+            <div class="col-md-4 mx-auto pb-2 text-center txt-purple jumbotron-bg-img">
+              <span class="fw-bold" style="font-size: 40px;">
+                Driving the growth of businesses in Africa<span style="color: #DB0B5B;">.</span>
+              </span>
+            </div>
+            <div class="col-md-6 mx-auto pb-2 text-center jumbotron-bg-img">
+                <span class="fw-light fs-5" style="font-size: 18px; color: #4D4D4D">
+                    SMERP is a user-friendly enterprise resource planning solution.
+                    The ERP software is designed to address the needs of startups and SMEs in Africa.
+                    It rides on automation of processes to improve efficiency which in turn ensures
+                    profitability for your business.
+                </span>
+            </div>
+
+            <div class="col-md-7 mx-auto pb-5 text-center pt-5">
+                <img src="theme_smerp/static/img/smerp-mockup.png" class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes" width="600" height="500" loading="lazy"/>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+    <div style="background-color: #FBFBFB;">
+      <div class="container-fluid row py-5" id="featured-6">
+        <div class="col-lg-12 py-5">
+          <div class="pt-5 pb-2 px-5 text-center txt-magenta" style="font-size: 28px;">
+            Experience SMERP
+          </div>
+          <div class="col-lg-4 mx-auto pb-2 text-center txt-purple jumbotron-bg-img">
+            <span class="fw-bold" style="font-size: 40px;">
+              Manage your business on the go<span style="color: #DB0B5B;">.</span>
+            </span>
+          </div>
+
+          <div class="col-lg-6 mx-auto pb-2 text-center jumbotron-bg-img">
+            <span class="fw-light fs-5" style="font-size: 18px; color: #4D4D4D">
+              SMERP is built to improve operations such as accounting, payment, order management,
+              inventory management, invoicing, customer relations, system integration and sales
+              that saves cost and increases efficiency.
+            </span>
+          </div>
+
+          <div class="col-md-9 mx-auto d-grid gap-5 py-5 pb-2 d-md-flex text-center jumbotron-bg-img justify-content-center">
+              <button type="button" class="btn btn-outline-light btn-lg px-7 me-md-2 txt-purple btn-boder-purple" data-bs-toggle="modal"
+                data-bs-target="#bookDemoModal" data-bs-dismiss="modal">Book a demo</button>
+              <button type="button" class="btn btn-light btn-lg bg-purple text-white px-7" data-bs-toggle="modal"
+              data-bs-target="#signUpModal" data-bs-dismiss="modal">Get Started</button>
+          </div>
+
+          <!-- <div class="col-md-10 mx-auto text-center py-5">
+
+              <img src="assets/dist/images/Group 690.svg" class="d-block mx-auto img-fluid"
+
+              alt="Bootstrap Themes" loading="lazy">
+
+          </div> -->
+
+          <div class="col-md-8 mx-auto text-center py-5">
+            <video id="player" playsinline="true" controls="true" crossorigin="true"
+            data-poster="theme_smerp/static/img/intro-to-smerp-poster-for-video.png">
+              <source src="theme_smerp/static/videos/SMERP_30 secs_1.mp4" type="video/mp4"/>
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+        <div class="container px-5 py-5 mb-5" id="featured-4">
+            <div class="pt-5 pb-4 text-center txt-magenta" style="font-size: 28px;">
+                <span>Stay Connected</span>
+            </div>
+            <div class="col-md-5 py-4 mx-auto pb-2 text-center txt-purple jumbotron-bg-img">
+              <span class="fw-bolder fs-1">
+                Get more value for your business with SMERP<span style="color: #DB0B5B;">.</span>
+              </span>
+            </div>
+
+            <div class="col-md-8 mx-auto mb-5 text-center justify-content-center">
+                <span class="fw-light fs-5">
+                    SMERP is built around the key competences of automation, data connectivity and data analytic.
+                    Delivering seamless resource allocation planning, inventory and order management,
+                    customer insight and engagement as well as finance and retail payments solutions that
+                    are essential for businesses looking to improve their value offering and expand in the modern marketplace.
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mt-5" style="background-color: #FBFBFB;">
+        <div class="row h-50">
+            <div class="col-md-6 px-4 py-5 align-self-center">
+                <div class="row">
+                  <div class="col-md-8 mx-auto py-5">
+                      <span class="fw-bolder fs-2 txt-purple col-8">Get Started with SMERP<span style="color: #DB0B5B;">!</span></span>
+                      <div class="col-8 mt-3">
+                          <button type="button" class="btn btn-light btn-lg bg-purple text-white px-7" data-bs-toggle="modal"
+                          data-bs-target="#signUpModal" data-bs-dismiss="modal">Let's go</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 bg-purple px-4 py-5 align-self-center">
+                <div class="row">
+                  <div class="col-md-8 mx-auto py-5">
+                      <span class="fw-bolder fs-2 text-white col-8">Book A Demo<span style="color: #DB0B5B;">!</span></span>
+                      <div class="col-8 mt-3">
+                          <button type="button" class="btn btn-light btn-lg txt-purple px-7" data-bs-toggle="modal"
+                          data-bs-target="#bookDemoModal" data-bs-dismiss="modal"
+                          style="background-color: #fff; color: #3A054f;">Explore SMERP</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+
+
+    <record id="about_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/about</field>
+        <field name="view_id" ref="about"/>
+    </record>
+
+
+
+    <record id="menu_about" model="website.menu">
+        <field name="name">About Us</field>
+        <field name="url">/about</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">63</field>
+    </record>
+
+</odoo>
