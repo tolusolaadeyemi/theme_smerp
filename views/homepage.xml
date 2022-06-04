@@ -37,10 +37,8 @@
                   drives productivity by connecting and enabling businesses to address their key needs
                 </p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
-                  <button type="button" class="btn btn-light btn-lg px-7 me-md-2" data-bs-toggle="modal"
-                  data-bs-target="#bookDemoModal" data-bs-dismiss="modal">Book a demo</button>
-                  <button type="button" class="btn btn-outline-light btn-lg px-7 me-md-3" data-bs-toggle="modal"
-                  data-bs-target="#signUpModal" data-bs-dismiss="modal">Sign up</button>
+                  <a href="/contactus" class="btn btn-light btn-lg px-7 me-md-2">Book a demo</a>
+                  <a href="/business-zone/register" class="btn btn-outline-light btn-lg px-7 me-md-3">Sign up</a>
                 </div>
               </div>
             </div>
@@ -166,8 +164,7 @@
 
         <div class="row">
           <div class="col-md-3 d-grid gap-2 mx-auto pb-5 text-center">
-            <button type="button" class="btn btn-light btn-lg bg-purple text-white" data-bs-toggle="modal"
-            data-bs-target="#bookDemoModal" data-bs-dismiss="modal">Book a demo</button>
+            <a href="/contactus" class="btn btn-light btn-lg bg-purple text-white">Book a demo</a>
           </div>
         </div>
       <div class="row">
@@ -199,8 +196,8 @@
 
                     <div class="card-footer text-muted border-0 bg-transparent">
                       <p class="px-2">
-                        <button class="btn btn-link txt-magenta fw-bolder" data-bs-toggle="modal"
-                        data-bs-target="#bookDemoModal" data-bs-dismiss="modal" style="text-decoration: none;">Book A Demo</button>
+                        <a href="/contactus" class="btn btn-link txt-magenta fw-bolder" data-bs-toggle="modal"
+                        data-bs-target="#bookDemoModal" data-bs-dismiss="modal" style="text-decoration: none;">Book A Demo</a>
                       </p>
                     </div>
                   </div>
@@ -218,8 +215,7 @@
 
                     <div class="card-footer text-muted border-0 bg-transparent">
                       <p class="px-2">
-                        <button class="btn btn-link txt-magenta fw-bolder" data-bs-toggle="modal"
-                        data-bs-target="#bookDemoModal" data-bs-dismiss="modal" style="text-decoration: none;">Book A Demo</button>
+                        <a href="/contactus" class="btn btn-link txt-magenta fw-bolder" style="text-decoration: none;">Book A Demo</a>
                       </p>
                     </div>
                   </div>
@@ -237,8 +233,7 @@
 
                     <div class="card-footer text-muted border-0 bg-transparent">
                       <p class="px-2">
-                        <button class="btn btn-link txt-magenta fw-bolder" data-bs-toggle="modal"
-                        data-bs-target="#bookDemoModal" data-bs-dismiss="modal" style="text-decoration: none;">Book A Demo</button>
+                        <a href="/contactus" class="btn btn-link txt-magenta fw-bolder" style="text-decoration: none;">Book A Demo</a>
                       </p>
                     </div>
                   </div>
@@ -305,8 +300,7 @@
                 <div class="card-footer text-muted border-0 bg-transparent">
                   <p class="txt-magenta text-center"><small>*Every additional user costs ₦1500 monthly.</small></p>
                   <div class="d-grid gap-2 mx-auto text-center">
-                    <button type="button" class="btn btn-light btn-lg bg-purple text-white" data-bs-toggle="modal"
-                    data-bs-target="#signUpModal" data-bs-dismiss="modal">Choose Basic</button>
+                    <a href="/business-zone/register" class="btn btn-light btn-lg bg-purple text-white">Choose Basic</a>
                   </div>
                 </div>
               </div>
@@ -344,8 +338,7 @@
                 <div class="card-footer text-muted border-0 bg-transparent">
                   <p class="txt-magenta text-center"><small>*Every additional user costs ₦1500 monthly.</small></p>
                   <div class="d-grid gap-2 mx-auto text-center">
-                    <button type="button" class="btn btn-light btn-lg bg-purple text-white" data-bs-toggle="modal"
-                    data-bs-target="#signUpModal" data-bs-dismiss="modal">Choose Standard</button>
+                    <a href="/business-zone/register" class="btn btn-light btn-lg bg-purple text-white">Choose Standard</a>
                   </div>
                 </div>
               </div>
@@ -395,8 +388,7 @@
                 <div class="card-footer text-muted border-0 bg-transparent pt-4">
                   <p class="txt-magenta text-center"><small>*Every additional user costs ₦1500 monthly.</small></p>
                   <div class="d-grid gap-2 mx-auto text-center">
-                    <button type="button" class="btn btn-light btn-lg bg-purple text-white" data-bs-toggle="modal"
-                    data-bs-target="#bookDemoModal" data-bs-dismiss="modal">Contact Us</button>
+                    <a href="/contactus" class="btn btn-light btn-lg bg-purple text-white">Contact Us</a>
 
                   </div>
                 </div>
@@ -480,9 +472,8 @@
 
                 <div class="mb-3 text-muted text-center">
                   Don't have a smerp account?
-                  <button type="button" class="btn btn-link txt-magenta" data-bs-toggle="modal"
-                  data-bs-target="#signUpModal" data-bs-dismiss="modal">
-                    Sign up here</button>
+                  <a href="/business-zone/register" class="btn btn-link txt-magenta">
+                    Sign up here</a>
                 </div>
               </form>
             </div>

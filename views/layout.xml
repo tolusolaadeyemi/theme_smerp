@@ -26,15 +26,15 @@
             <a class="nav-link active" href="/faqs">FAQs</a>
         </li>
         <li class="nav-item d-grid gap-2">
-            <button class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#signUpModal">
+            <a href="/business-zone/register" class="btn btn-outline-light btn-lg">
               Sign up
-            </button>
+            </a>
         </li>
         <li class="nav-item d-grid gap-2">
-            <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#signInModal"
+            <a href="/web/login" class="btn btn-light btn-lg"
               style="background-color: #fff; color: #3A054f; margin-left:50px;">
               Sign in
-            </button>
+            </a>
         </li>
       </ul>
     </div>
